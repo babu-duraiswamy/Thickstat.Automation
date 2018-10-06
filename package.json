@@ -1,0 +1,22 @@
+{
+  "name": "thickstat",
+  "version": "1.0.0",
+  "description": "Thickstat Automation Framework",
+  "main": "index.js",
+  "scripts": {
+    "webdriver-update": "webdriver-manager update",
+    "compile": "tsc",
+    "test": "protractor ./dist/protractor.config.js"
+  },
+  "author": "Babu Duraiswamy",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jasmine": "^2.8.9",
+    "g": "^2.0.1",
+    "jasmine": "^3.2.0",
+    "protractor": "^5.4.1",
+    "typescript": "^3.0.3",
+    "webdriver-manager": "^12.1.0",
+    "winston": "^3.1.0"
+  }
+}
